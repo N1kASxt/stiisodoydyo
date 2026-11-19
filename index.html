@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книжковий Рай</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Секция 1: Главная (Темно-зеленая) -->
+    <section class="section-main">
+        <div class="container main-container">
+            <div class="https://i.pinimg.com/564x/82/af/4b/82af4bb76f88b45995b8bb3b08187b98.jpg">
+                <!-- Иконка книги (заглушка) -->
+                <img src="https://i.pinimg.com/564x/82/af/4b/82af4bb76f88b45995b8bb3b08187b98.jpg" alt="Логотип" class="logo-img">
+            </div>
+            <h1 class="main-title">Книжковий Рай</h1>
+            <h2 class="main-subtitle">Відкрий для себе наступну улюблену книгу</h2>
+            <a href="#second-section" class="btn-main">Дізнатися більше</a>
+        </div>
+    </section>
+
+    <!-- Секция 2: О библиотеке (Светло-серая) -->
+    <section class="second-section" id="second-section">
+        <div class="container second-container">
+            <div class="image-wrapper">
+                <img src="https://www.knuba.edu.ua/wp-content/uploads/2023/04/c9nvnarnrmfm1qcrdnne7wpr.jpeg" alt="Книга" class="main-photo">
+            </div>
+            <div class="text-wrapper">
+                <h2 class="section-title">Ласкаво просимо до Книжкового Раю</h2>
+                <p>Ми — команда ентузіастів, яка прагне зробити читання доступним та приємним для кожного. У нашому магазині ви знайдете широкий вибір книг на будь-який смак.</p>
+                <p>Наша мета — створити затишний простір, де кожен зможе знайти свою історію. Приходьте до нас, щоб поринути у світ літератури та знайти нових друзів.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция 3: Рекомендовані книги (Белая) -->
+    <section class="third-section">
+        <div class="container">
+            <h2 class="third-title">РЕКОМЕНДОВАНІ КНИГИ</h2>
+            <h3 class="section-subtitle">Наша колекція</h3>
+            
+            <div class="books-grid">
+                <!-- Карточка 1 -->
+                <article class="book-card">
+                    <img src="https://static.yakaboo.ua/media/catalog/product/4/1/41_1_131.jpg" alt="Книга 1" class="book-img">
+                    <h4 class="book-title">Гаррі потер і філосовський камень</h4>
+                    <p class="book-author">Дж.К.Ролінг</p>
+                    <p class="book-price">320 грн</p>
+                </article>
+                <!-- Карточка 2 -->
+                <article class="book-card">
+                    <img src="https://static.yakaboo.ua/media/cloudflare/product/webp/600x840/1/5/1599_1_2.jpg" alt="Книга 2" class="book-img">
+                    <h4 class="book-title">Маленький принц</h4>
+                    <p class="book-author">Антуан де Сент-Екзюпері</p>
+                    <p class="book-price">280 грн</p>
+                </article>
+                <!-- Карточка 3 -->
+                <article class="book-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLt4hJ6MK6zDViXDZxxGYgwN6qx18_nhOerRmeFn5tzWIlXypnmSedbm8&s=10" alt="Книга 3" class="book-img">
+                    <h4 class="book-title">Лелія</h4>
+                    <p class="book-author">Леся Українка</p>
+                    <p class="book-price">250 грн</p>
+                </article>
+                <!-- Карточка 4 (Добавлена, так как на скриншоте их 4) -->
+                <article class="book-card">
+                    <img src="https://znannia.com/img/uploads/presm/1586514385_5c2bfda07a11d290a010_thumb.jpg" alt="Книга 4" class="book-img">
+                    <h4 class="book-title">Фарбований Лис</h4>
+                    <p class="book-author">Іван Франко</p>
+                    <p class="book-price">300 грн</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция 4: Подписка и футер (Темно-зеленая) -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <h3 class="footer-title">Приєднуйтесь до нашої спільноти</h3>
+            <p class="footer-text">Підпишіться на нашу розсилку, щоб отримувати останні новини про новинки, ексклюзивні пропозиції та багато іншого. Ласка, зв'яжіться з нами за номером <a href="tel:+380123456789" class="phone-link">+380 123-456-789</a></p>
+            
+            <form action="#" class="footer-form" method="POST">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Ваше ім'я" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Ваша електронна пошта" class="form-input" required>
+                </div>
+                <button type="submit" class="form-btn">Підписатися</button>
+            </form>
+        </div>
+    </footer>
+
+</body>
+</html>
